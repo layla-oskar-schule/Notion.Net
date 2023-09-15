@@ -10,11 +10,15 @@
     <None Remove="Utils\" />
     <None Remove="Api\" />
     <None Remove="Api\Response\" />
+    <None Remove="Model\" />
+    <None Remove="Api\Request\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Utils\" />
     <Folder Include="Api\" />
     <Folder Include="Api\Response\" />
+    <Folder Include="Model\" />
+    <Folder Include="Api\Request\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
